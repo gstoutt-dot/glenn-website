@@ -17,33 +17,34 @@ header{position:sticky;top:0;z-index:50;background:rgba(15,11,9,.88);backdrop-fi
 .navlinks a{margin-left:28px;color:var(--muted)} .navlinks a:hover{color:#fff}
 section{border-bottom:1px solid var(--line)}
 .hero{background:radial-gradient(circle at top right, rgba(200,169,106,.14), transparent 35%), linear-gradient(135deg,#0f0b09,#1a1512 60%, #261d14)}
-.hero-grid,.grid-2,.contact-grid,.gallery-grid{display:grid;gap:32px;align-items:start}
-.hero-grid{grid-template-columns:1.05fr .95fr;padding:64px 0}
+.hero-grid,.grid-2,.stats-grid,.timeline-grid{display:grid;gap:32px;align-items:start}
+.hero-grid{grid-template-columns:1.05fr .95fr;padding:72px 0}
 .grid-2{grid-template-columns:1fr 1fr;padding:56px 0}
-.contact-grid{grid-template-columns:1fr .9fr;padding:56px 0}
-.gallery-grid{grid-template-columns:repeat(3,1fr)}
+.stats-grid{grid-template-columns:repeat(4,1fr);padding:18px 0 56px}
+.timeline-grid{grid-template-columns:repeat(3,1fr);padding:18px 0 56px}
 .badge{display:inline-block;padding:8px 14px;border-radius:999px;border:1px solid rgba(200,169,106,.35);background:rgba(200,169,106,.12);color:#f5e9c3;font-size:12px;letter-spacing:.25em;text-transform:uppercase}
 .eyebrow{font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold)}
-h1{font-family:Georgia,'Times New Roman',serif;font-size:58px;line-height:1.04;margin:18px 0 0}
+h1{font-family:Georgia,'Times New Roman',serif;font-size:60px;line-height:1.02;margin:18px 0 0}
 h2{font-family:Georgia,'Times New Roman',serif;font-size:42px;line-height:1.12;margin:12px 0 0}
-h3{font-family:Georgia,'Times New Roman',serif;font-size:28px;margin:0 0 10px}
+h3{font-family:Georgia,'Times New Roman',serif;font-size:26px;margin:0 0 10px}
 p, li{font-size:19px;line-height:1.8;color:var(--muted)}
 ul{padding-left:22px}
 .btns{display:flex;gap:16px;flex-wrap:wrap;margin-top:28px}
 .btn{display:inline-block;border:none;border-radius:18px;padding:16px 24px;font-weight:700;cursor:pointer}
 .btn.gold{background:var(--gold);color:#16120e} .btn.dark{background:transparent;color:#fff;border:1px solid var(--line)}
 .card{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:28px;box-shadow:0 20px 60px rgba(0,0,0,.28)}
-.panel{padding:28px}
-.hero-card{padding:12px;position:relative;overflow:hidden}
-.hero-card img,.gallery-item img{width:100%;display:block;border-radius:22px}
-.gallery-item{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:24px;padding:12px}
+.panel{padding:30px}
 .meta{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
-.kicker{font-size:14px;color:var(--muted)}
 .footer{padding:28px 0;color:var(--muted)}
-.quote{font-family:Georgia,'Times New Roman',serif;font-size:30px;line-height:1.45;color:#fff}
-.note{font-size:16px}
+.quote{font-family:Georgia,'Times New Roman',serif;font-size:34px;line-height:1.4;color:#fff}
+.stat{padding:28px;text-align:center}
+.stat-number{font-family:Georgia,'Times New Roman',serif;font-size:48px;color:#fff;margin-bottom:8px}
+.stat-label{font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.hero-card{padding:12px;position:relative;overflow:hidden}
+.hero-card img{width:100%;display:block;border-radius:22px}
+.soft{background:linear-gradient(180deg, rgba(200,169,106,.08), rgba(255,255,255,.02))}
 @media (max-width: 900px){
-  .hero-grid,.grid-2,.contact-grid,.gallery-grid{grid-template-columns:1fr}
+  .hero-grid,.grid-2,.stats-grid,.timeline-grid{grid-template-columns:1fr}
   h1{font-size:44px} h2{font-size:34px}
   .nav{flex-direction:column;gap:14px;align-items:flex-start}
   .navlinks a{margin-left:0;margin-right:20px}
@@ -61,40 +62,29 @@ ul{padding-left:22px}
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <div class="badge">Story • Legacy • Discipline</div>
-      <h1>The story behind Stoutt Property Management.</h1>
-      <p>Stoutt Property Management is built on decades of leadership, hands-on execution, and a belief that lasting value comes from discipline, service, and follow-through.</p>
-      <div class="btns"><a class="btn gold" href="contact.html">Start a Conversation</a><a class="btn dark" href="work.html">Explore Our Work</a></div>
-    </div>
-    <div class="card hero-card"><img src="assets/speaking.jpeg" alt="Glenn speaking"/></div>
-  </div>
-</section>
-
-<section>
-  <div class="container grid-2">
-    <div class="card panel">
-      <div class="eyebrow">Early Foundation</div>
-      <h2>Built on initiative.</h2>
-      <p>At 25, Glenn was awarded a major municipal contract few believed someone his age could win. That opportunity became the foundation of a professional life shaped by accountability, precision, and long-range thinking.</p>
-      <p>From that point forward, he built a reputation by taking on meaningful work, leading from the front, and delivering outcomes that stood the test of time.</p>
+      <div class="badge">Story • Legacy • Second Act</div>
+      <h1>A story built on vision, tested by responsibility, and renewed with purpose.</h1>
+      <p>The story behind Stoutt Property Management is not a straight line. It is a life shaped by building, leadership, adversity, service, and a return to business with deeper purpose than ever before.</p>
+      <div class="btns">
+        <a class="btn gold" href="contact.html">Start a Conversation</a>
+        <a class="btn dark" href="work.html">Explore Our Work</a>
+      </div>
     </div>
     <div class="card panel">
-      <div class="eyebrow">A Working Philosophy</div>
-      <h2>Build something that lasts.</h2>
-      <p>Over the decades that followed, he developed and managed projects ranging from residential communities to large-scale association environments, always with a focus on quality, accountability, and lasting value.</p>
-      <p>That same standard now shapes Stoutt Property Management: thoughtful decisions, strong communication, and disciplined follow-through.</p>
+      <div class="meta">What defines the story</div>
+      <p class="quote">Build with excellence. Lead with discipline. Serve with purpose. Return with vision.</p>
+      <p>This is the foundation of Stoutt Property Management — a company shaped not only by experience, but by the kind of life experience that sharpens conviction, perspective, and leadership.</p>
     </div>
   </div>
 </section>
 
-<section>
-  <div class="container grid-2">
-    <div class="card hero-card"><img src="assets/aviation.jpeg" alt="Aviation"/></div>
-    <div class="card panel">
-      <div class="eyebrow">Aviation Mindset</div>
-      <h2>Flying to meetings takes focus and concentration.</h2>
-      <p>So does building something special that lasts. Aviation reinforced a mindset of preparation, calm decision-making, and responsibility — especially when details matter and there is no room for shortcuts.</p>
-      <p>Those principles carry directly into management: protect the asset, communicate clearly, solve problems early, and lead with confidence.</p>
+<section class="soft">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="card stat"><div class="stat-number">$500M+</div><div class="stat-label">Assets Managed</div></div>
+      <div class="card stat"><div class="stat-number">$250M+</div><div class="stat-label">Restoration Led</div></div>
+      <div class="card stat"><div class="stat-number">18</div><div class="stat-label">Years as COO</div></div>
+      <div class="card stat"><div class="stat-number">25+</div><div class="stat-label">Years of Youth Impact</div></div>
     </div>
   </div>
 </section>
@@ -102,16 +92,89 @@ ul{padding-left:22px}
 <section>
   <div class="container grid-2">
     <div class="card panel">
-      <div class="eyebrow">Personal Chapter</div>
-      <h2>Service shaped the next chapter.</h2>
-      <p>Life also required a season of caregiving and reflection. That chapter sharpened the values behind the work: steadiness, empathy, patience, and showing up fully when people need leadership the most.</p>
-      <p>Today, Stoutt Property Management carries both sides of that story — operational discipline and human understanding.</p>
+      <div class="eyebrow">The Early Foundation</div>
+      <h2>It began with design, development, and learning how to build from the ground up.</h2>
+      <p>Glenn began his career in South Florida as a landscape architect and business owner, designing and installing landscapes across some of the region’s most prestigious communities. His early work blended creativity with execution, shaping outdoor environments that were meant to be both beautiful and lasting.</p>
+      <p>That work grew into larger development responsibility, including one of his defining early chapters: the 860-acre Savannah Club community in Port St. Lucie. There, he led full-scale landscape architecture design for the residential development, roadways, clubhouse, and 18-hole golf course, while also overseeing installation and field execution.</p>
     </div>
     <div class="card panel">
-      <div class="eyebrow">Today</div>
-      <h2>A company with purpose.</h2>
-      <p>Stoutt Property Management exists to serve associations with professionalism, responsiveness, and a standard of excellence that respects both the board’s responsibility and the residents’ experience.</p>
-      <p class="quote">Every property, every board, and every decision is approached with one standard in mind: build something that lasts.</p>
+      <div class="eyebrow">Aviation Discipline</div>
+      <h2>Leadership was built in motion.</h2>
+      <p>For two years, Glenn flew his airplane each morning from Boca Raton to Stuart to meet his team and oversee the Savannah Club project. That rhythm says a lot about the standard behind the work: precision, commitment, preparation, and showing up consistently where leadership is needed.</p>
+      <p>That aviation mindset still shapes how he approaches management today — focused, calm, detail-oriented, and accountable when the stakes are high.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2">
+    <div class="card panel">
+      <div class="eyebrow">Building at Scale</div>
+      <h2>From founder to one of South Florida’s largest private property management operations.</h2>
+      <p>Glenn went on to found and build Sundance Property Management Corp., growing it into one of the largest privately owned property management companies in South Florida. Under his leadership, the company managed a portfolio exceeding $500 million in assets.</p>
+      <p>This was not simply a story of growth. It was a story of operational discipline, client trust, team leadership, and the ability to manage complex communities at serious scale.</p>
+    </div>
+    <div class="card panel">
+      <div class="eyebrow">Tested Under Pressure</div>
+      <h2>Hurricane Andrew demanded more than management. It demanded command.</h2>
+      <p>Following Hurricane Andrew, Glenn led complex large-scale restoration efforts across managed properties, coordinating the recovery of more than $250 million in property damage. That chapter required logistics, communication, vendor leadership, urgency, and trust at the highest level.</p>
+      <p>It remains one of the clearest examples of what true property leadership looks like when communities need more than routine management — they need calm, direction, and execution.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="timeline-grid">
+      <div class="card panel">
+        <div class="eyebrow">Entrepreneur</div>
+        <h3>Building businesses with structure.</h3>
+        <p>Following his success in business, Glenn advised entrepreneurs on company structure, scalability, profitability, and preparing businesses for long-term growth and possible acquisition.</p>
+      </div>
+      <div class="card panel">
+        <div class="eyebrow">Coach</div>
+        <h3>Developing discipline in young people.</h3>
+        <p>He spent eight years coaching high school football at Coral Springs Charter School, helping launch the program and introducing its first academic accountability initiative for student-athletes.</p>
+      </div>
+      <div class="card panel">
+        <div class="eyebrow">Mentor</div>
+        <h3>Leadership beyond the boardroom.</h3>
+        <p>His work has consistently centered on helping people grow — whether in business, athletics, or life — through standards, encouragement, accountability, and belief.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2">
+    <div class="card panel">
+      <div class="eyebrow">A Deeply Personal Chapter</div>
+      <h2>Service stopped being abstract and became part of daily life.</h2>
+      <p>Glenn spent over a decade as the primary caregiver for his late wife, Lisa Stoutt. That experience transformed the way he saw leadership, responsibility, and presence. It deepened his patience, sharpened his empathy, and made service personal in a way business alone never could.</p>
+      <p>Together, Glenn and Lisa shared a passion for helping others through the Keeping Dreams Alive Foundation. That mission continues to shape his life and remains one of the deepest expressions of his purpose.</p>
+    </div>
+    <div class="card panel">
+      <div class="eyebrow">A Mission That Endures</div>
+      <h2>Change one life, change a generation.</h2>
+      <p>As Chief Operating Officer of the Keeping Dreams Alive Foundation, Glenn has helped shape the organization’s mission, strategic direction, and long-term impact since 2003. Through that work, he has helped support and influence the lives of students and student-athletes across at-risk communities.</p>
+      <p>This is where the business story and the human story meet: in the belief that leadership should create opportunity, dignity, and lasting change in the lives of others.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container grid-2">
+    <div class="card panel">
+      <div class="eyebrow">Second Act</div>
+      <h2>Now returning to property management with more clarity than ever.</h2>
+      <p>Today, Glenn is back with renewed passion to build the next great property management company — not by repeating the past, but by combining hard-earned experience with modern tools, including AI, to create faster, smarter, and more responsive service.</p>
+      <p>This new chapter is about being closer to the client, more present on site, more connected to boards, and more focused on relationships while technology handles what once took hours or days.</p>
+    </div>
+    <div class="card panel">
+      <div class="eyebrow">Why It Matters Now</div>
+      <h2>Experience is the base. Purpose is the difference.</h2>
+      <p>Stoutt Property Management is being built from a place of maturity, perspective, and conviction. It carries the weight of experience, the steadiness of tested leadership, and the heart of someone who understands that what we build should make life better for the people we serve.</p>
+      <p class="quote">This is not just a return to business. It is a return with purpose.</p>
     </div>
   </div>
 </section>

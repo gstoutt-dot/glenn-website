@@ -22,3 +22,5 @@ Files you will edit most often:
 - Added stewardship.html and updated navigation with Stewardship
 
 - Upgraded Stewardship page with premium narrative, impact stats, and founder's letter
+
+- Upgraded Story page to elite version with authority, legacy, and second-act narrative
