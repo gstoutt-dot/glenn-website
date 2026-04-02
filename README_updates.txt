@@ -19,3 +19,4 @@ Files you will edit most often:
 - work.html
 - leadership.html
 - contact.html
+- Added stewardship.html and updated navigation with Stewardship
