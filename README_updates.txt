@@ -20,3 +20,5 @@ Files you will edit most often:
 - leadership.html
 - contact.html
 - Added stewardship.html and updated navigation with Stewardship
+
+- Upgraded Stewardship page with premium narrative, impact stats, and founder's letter
