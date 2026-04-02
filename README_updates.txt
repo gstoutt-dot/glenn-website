@@ -24,3 +24,5 @@ Files you will edit most often:
 - Upgraded Stewardship page with premium narrative, impact stats, and founder's letter
 
 - Upgraded Story page to elite version with authority, legacy, and second-act narrative
+
+- Added dedicated pillar pages for Explore buttons: development, property management, aviation, and family legacy

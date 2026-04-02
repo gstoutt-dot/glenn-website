@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Property Management | Stoutt Property Management</title>
+<style>
+:root{--bg:#0f0b09;--bg2:#171311;--text:#f5f2eb;--muted:#b8b0a6;--gold:#c8a96a;--line:rgba(255,255,255,.10)}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text)}
+a{color:inherit;text-decoration:none}
+.container{max-width:1180px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:50;background:rgba(15,11,9,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.brand1{font-weight:700;letter-spacing:.2em;color:var(--gold)}
+.brand2{font-size:12px;letter-spacing:.25em;color:var(--muted);text-transform:uppercase;margin-top:4px}
+.navlinks a{margin-left:28px;color:var(--muted)} .navlinks a:hover{color:#fff}
+section{border-bottom:1px solid var(--line)}
+.hero{background:radial-gradient(circle at top right, rgba(200,169,106,.14), transparent 35%), linear-gradient(135deg,#0f0b09,#1a1512 60%, #261d14)}
+.hero-grid,.grid-2,.stats-grid{display:grid;gap:32px;align-items:start}
+.hero-grid{grid-template-columns:1.05fr .95fr;padding:72px 0}
+.grid-2{grid-template-columns:1fr 1fr;padding:56px 0}
+.stats-grid{grid-template-columns:repeat(3,1fr);padding:18px 0 56px}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;border:1px solid rgba(200,169,106,.35);background:rgba(200,169,106,.12);color:#f5e9c3;font-size:12px;letter-spacing:.25em;text-transform:uppercase}
+.eyebrow{font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:Georgia,'Times New Roman',serif;font-size:58px;line-height:1.04;margin:18px 0 0}
+h2{font-family:Georgia,'Times New Roman',serif;font-size:42px;line-height:1.12;margin:12px 0 0}
+h3{font-family:Georgia,'Times New Roman',serif;font-size:26px;margin:0 0 10px}
+p, li{font-size:19px;line-height:1.8;color:var(--muted)}
+ul{padding-left:22px}
+.btns{display:flex;gap:16px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;border:none;border-radius:18px;padding:16px 24px;font-weight:700;cursor:pointer}
+.btn.gold{background:var(--gold);color:#16120e} .btn.dark{background:transparent;color:#fff;border:1px solid var(--line)}
+.card{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:28px;box-shadow:0 20px 60px rgba(0,0,0,.28)}
+.panel{padding:30px}
+.footer{padding:28px 0;color:var(--muted)}
+.quote{font-family:Georgia,'Times New Roman',serif;font-size:32px;line-height:1.45;color:#fff}
+.meta{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.stat{padding:28px;text-align:center}
+.stat-number{font-family:Georgia,'Times New Roman',serif;font-size:46px;color:#fff;margin-bottom:8px}
+.stat-label{font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.hero-card{padding:12px;overflow:hidden}
+.hero-card img{width:100%;display:block;border-radius:22px}
+@media (max-width: 900px){
+  .hero-grid,.grid-2,.stats-grid{grid-template-columns:1fr}
+  h1{font-size:44px} h2{font-size:34px}
+  .nav{flex-direction:column;gap:14px;align-items:flex-start}
+  .navlinks a{margin-left:0;margin-right:20px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div><div class="brand1">STOUTT</div><div class="brand2">PROPERTY MANAGEMENT</div></div>
+    <nav class="navlinks"><a href="index.html">Home</a><a href="story.html">Story</a><a href="work.html">Work</a><a href="leadership.html">Leadership</a><a href="stewardship.html">Stewardship</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">Property Management • Scale • Leadership</div>
+      <h1>This is where experience turned into command.</h1>
+      <p>The property management pillar tells the story of operational leadership at scale — building Sundance Property Management, managing a $500M+ portfolio, and leading communities through some of their most critical moments.</p>
+      <div class="btns"><a class="btn gold" href="leadership.html">View Leadership</a><a class="btn dark" href="story.html">Read Full Story</a></div>
+    </div>
+    <div class="card panel">
+      <div class="meta">What this pillar represents</div>
+      <p class="quote">When communities need more than routine management, leadership becomes visible.</p>
+      <p>This is the chapter where strategy, accountability, relationships, and execution came together in one of South Florida’s largest privately owned property management operations.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2">
+    <div class="card panel">
+      <div class="eyebrow">Sundance</div>
+      <h2>From company-building to managing serious scale.</h2>
+      <p>Glenn founded and built Sundance Property Management Corp. into one of the largest privately owned property management companies in South Florida. Under his leadership, the portfolio exceeded $500 million in assets.</p>
+      <p>That required more than operations. It required trust from boards, strong systems, steady client relationships, and the ability to lead both people and properties with consistency.</p>
+    </div>
+    <div class="card panel">
+      <div class="eyebrow">Hurricane Andrew</div>
+      <h2>Leadership tested under real pressure.</h2>
+      <p>Following Hurricane Andrew, Glenn coordinated the recovery of more than $250 million in property damage across managed assets. That work demanded fast decisions, communication under pressure, vendor leadership, and a calm command structure when communities needed direction most.</p>
+      <p>It remains a defining example of what high-level property leadership looks like when the stakes are real.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="stats-grid">
+      <div class="card stat"><div class="stat-number">$500M+</div><div class="stat-label">Assets Managed</div></div>
+      <div class="card stat"><div class="stat-number">$250M+</div><div class="stat-label">Restoration Led</div></div>
+      <div class="card stat"><div class="stat-number">18</div><div class="stat-label">Years as COO</div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="container footer">
+  <div>Stoutt Property Management</div>
+</footer>
+</body>
+</html>
