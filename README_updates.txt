@@ -26,3 +26,5 @@ Files you will edit most often:
 - Upgraded Story page to elite version with authority, legacy, and second-act narrative
 
 - Added dedicated pillar pages for Explore buttons: development, property management, aviation, and family legacy
+
+- Fixed homepage pillar Explore items so the cards themselves link to the new destination pages
