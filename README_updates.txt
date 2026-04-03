@@ -28,3 +28,5 @@ Files you will edit most often:
 - Added dedicated pillar pages for Explore buttons: development, property management, aviation, and family legacy
 
 - Fixed homepage pillar Explore items so the cards themselves link to the new destination pages
+
+- Upgraded homepage design: widened Story section, improved Legacy in Action card, removed duplicate appended homepage sections
