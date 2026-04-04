@@ -47,8 +47,9 @@ p, li{font-size:19px;line-height:1.8;color:var(--muted)}
 @media (max-width: 900px){
   .hero-grid,.grid-2,.stats-grid,.pillars-grid,.quote-grid{grid-template-columns:1fr}
   h1{font-size:44px} h2{font-size:34px}
-  nav{flex-direction:column;gap:14px;align-items:flex-start}
-  .navlinks a{margin-left:0;margin-right:20px}
+  nav{flex-direction:row;gap:12px;align-items:center;flex-wrap:wrap}
+  .navlinks{display:flex;flex-wrap:wrap;gap:10px}
+  .navlinks a{margin-left:0;margin-right:0;font-size:14px}
 
   .kda-gallery {
     grid-template-columns: 1fr;
@@ -64,6 +65,11 @@ p, li{font-size:19px;line-height:1.8;color:var(--muted)}
   .kda-intro {
     padding: 48px 0 24px;
   }
+
+  .kda-intro h2 {
+    font-size: 30px;
+  }
+}
 
   .kda-intro h2 {
     font-size: 30px;
