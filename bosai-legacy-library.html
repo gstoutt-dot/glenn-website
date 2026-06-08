@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The BOSai℠ Legacy Library | Glenn Stoutt</title>
+
+<style>
+:root{
+  --bg:#0f0b09;
+  --bg2:#171311;
+  --text:#f5f2eb;
+  --muted:#b8b0a6;
+  --gold:#c8a96a;
+  --line:rgba(255,255,255,.10);
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:linear-gradient(180deg,var(--bg),var(--bg2));
+  color:var(--text);
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+.container{
+  max-width:1280px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:rgba(15,11,9,.90);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 0;
+}
+
+.brand{
+  font-size:26px;
+  letter-spacing:.08em;
+  color:var(--gold);
+}
+
+.navlinks{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.navlinks a{
+  color:var(--muted);
+}
+
+.navlinks a:hover{
+  color:#fff;
+}
+
+.hero{
+  padding:90px 0;
+  text-align:center;
+}
+
+.hero img.seal{
+  width:180px;
+  margin-bottom:30px;
+}
+
+.kicker{
+  color:var(--gold);
+  letter-spacing:.25em;
+  text-transform:uppercase;
+  font-size:13px;
+  font-weight:bold;
+}
+
+h1{
+  font-size:64px;
+  margin-top:20px;
+  margin-bottom:25px;
+}
+
+.lead{
+  max-width:900px;
+  margin:0 auto;
+  color:var(--muted);
+  font-size:22px;
+  line-height:1.8;
+}
+
+.library-image{
+  margin-top:50px;
+}
+
+.library-image img{
+  width:100%;
+  border-radius:24px;
+}
+
+.section{
+  padding:90px 0;
+  border-top:1px solid var(--line);
+}
+
+.section h2{
+  font-size:42px;
+  margin-bottom:25px;
+}
+
+.section p{
+  color:var(--muted);
+  line-height:1.9;
+  font-size:18px;
+}
+
+.books{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  gap:24px;
+  margin-top:50px;
+}
+
+.card{
+  border:1px solid rgba(200,169,106,.20);
+  border-radius:24px;
+  padding:32px;
+  background:rgba(255,255,255,.03);
+}
+
+.card .volume{
+  color:var(--gold);
+  text-transform:uppercase;
+  letter-spacing:.20em;
+  font-size:12px;
+  margin-bottom:15px;
+}
+
+.card h3{
+  font-size:28px;
+  margin-bottom:15px;
+}
+
+.card .theme{
+  color:var(--gold);
+  margin-bottom:18px;
+}
+
+.card p{
+  margin-bottom:25px;
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 24px;
+  border-radius:999px;
+  border:1px solid rgba(200,169,106,.35);
+  color:var(--gold);
+}
+
+.btn:hover{
+  background:var(--gold);
+  color:#000;
+}
+
+.feature{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  align-items:center;
+}
+
+.feature img{
+  width:100%;
+  border-radius:24px;
+}
+
+footer{
+  text-align:center;
+  padding:80px 0;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+}
+
+@media(max-width:900px){
+  h1{
+    font-size:42px;
+  }
+
+  .feature{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="brand">GLENN STOUTT</div>
+
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="family-legacy.html">Family Legacy</a>
+      <a href="development.html">Development</a>
+      <a href="aviation-pillar.html">Aviation</a>
+      <a href="bosai-legacy-library.html">BOSai Library</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+
+    <img src="assets/bosai-seal.png" class="seal" alt="BOSai Seal">
+
+    <div class="kicker">
+      THE BOSai℠ LEGACY LIBRARY
+    </div>
+
+    <h1>Five Volumes. One Philosophy.</h1>
+
+    <p class="lead">
+      A professional leadership, stewardship, service, operations,
+      financial intelligence, enterprise management, and legacy library
+      created by Glenn Stoutt, founder of Stoutt Property Management
+      and creator of the BOSai℠ Method.
+    </p>
+
+    <div class="library-image">
+      <img src="assets/5-vol-library.png" alt="BOSai Library">
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <h2>Leadership Before Technology</h2>
+
+    <p>
+      The BOSai℠ Legacy Library documents the philosophy behind the BOSai℠ ecosystem:
+      leadership before technology, stewardship before authority,
+      transparency before control, and service before self-interest.
+    </p>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <h2>The Five Volume Collection</h2>
+
+    <div class="books">
+
+      <div class="card">
+        <div class="volume">Volume I</div>
+        <h3>The BOSai℠ Executive Playbook</h3>
+        <div class="theme">Leadership • Stewardship • Service</div>
+        <p>Executive leadership framework for community associations.</p>
+        <a class="btn" href="assets/bosai-volume-1.pdf" target="_blank">View PDF</a>
+      </div>
+
+      <div class="card">
+        <div class="volume">Volume II</div>
+        <h3>Community Association Operations Platform</h3>
+        <div class="theme">Operations • Boards • Homeowners</div>
+        <p>Operational framework supporting modern community management.</p>
+        <a class="btn" href="assets/bosai-volume-2.pdf" target="_blank">View PDF</a>
+      </div>
+
+      <div class="card">
+        <div class="volume">Volume III</div>
+        <h3>Financial Intelligence Platform</h3>
+        <div class="theme">Finance • Transparency • Stewardship</div>
+        <p>Financial systems supporting responsible governance.</p>
+        <a class="btn" href="assets/bosai-volume-3.pdf" target="_blank">View PDF</a>
+      </div>
+
+      <div class="card">
+        <div class="volume">Volume IV</div>
+        <h3>CAM Enterprise Platform</h3>
+        <div class="theme">Enterprise • Management • Scale</div>
+        <p>Framework for building professional management organizations.</p>
+        <a class="btn" href="assets/bosai-volume-4.pdf" target="_blank">View PDF</a>
+      </div>
+
+      <div class="card">
+        <div class="volume">Volume V</div>
+        <h3>The BOSai℠ Leadership Legacy</h3>
+        <div class="theme">Legacy • Service • Purpose</div>
+        <p>The personal leadership and legacy philosophy behind BOSai℠.</p>
+        <a class="btn" href="assets/bosai-volume-5.pdf" target="_blank">View PDF</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container feature">
+
+    <div>
+      <img src="assets/vol-v.png" alt="Volume V">
+    </div>
+
+    <div>
+
+      <div class="kicker">
+        FEATURED VOLUME
+      </div>
+
+      <h2>The BOSai℠ Leadership Legacy</h2>
+
+      <p>
+        Volume V preserves the leadership and legacy philosophy behind
+        the entire BOSai℠ Library. It reflects on stewardship, service,
+        mentorship, character, faith, hope, and love.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2026 Glenn Stoutt • Founder of The BOSai℠ Legacy Library
+  </div>
+</footer>
+
+</body>
+</html>
